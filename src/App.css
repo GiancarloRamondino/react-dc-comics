@@ -13,8 +13,7 @@ body{
 }
 
 footer{
-  background-color: grey;
-  display: flex;
+  background-color: rgb(39, 38, 38);
   width: 100vw;
 }
 
