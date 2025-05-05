@@ -3,12 +3,12 @@ import './Headers.css'
 const Header= () => {
     return (
         <>
-            <div className="logo">
-                <img src="/assets/images/dc" alt="DC Logo" />
+            <div className="logo h-100">
+                <img src="./assets/images/dc-logo.pn" alt="DC Logo" />
             </div>
-            <div className="bottom-nav">
-                <ul className="nav-list">
-                    <li><a href="#characters">Characters</a></li>
+            <div className="bottom-nav h-100">
+                <ul className="nav-list ">
+                    <li><a href="#characters" className="h-100">Characters</a></li>
                     <li><a href="#comics">Comics</a></li>
                     <li><a href="#movies">Movies</a></li>
                     <li><a href="#tv">TV</a></li>
