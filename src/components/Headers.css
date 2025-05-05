@@ -1,0 +1,31 @@
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+}
+
+li{
+    margin: 0 20px;
+    color: black;
+}
+li :hover{
+    color: blue;
+    height: 100%;
+    border-bottom: 3px  solid blue; 
+}
+
+div.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 10%;
+}
+
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
