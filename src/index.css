@@ -55,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-a :hover {
+a:hover {
     color: blue;
     border-bottom: 3px solid blue;
     padding-bottom: 20px;
