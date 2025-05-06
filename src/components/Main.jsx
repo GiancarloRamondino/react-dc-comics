@@ -2,7 +2,7 @@ const Main= () => {
     return (
         <>
           <main>
-            <h1> --{'>'} Content gooes  here {'<'}--</h1> 
+            <h1> <ListComics></ListComics> </h1> 
           </main>
           <div className="main-content">
             <div className="icon-container">
