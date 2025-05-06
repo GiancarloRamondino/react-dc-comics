@@ -4,7 +4,7 @@ const Header= () => {
     return (
         <>
             <div className="logo h-100">
-                <img src="./assets/images/dc-logo.pn" alt="DC Logo" />
+                <img src="src/assets/img/dc-logo.png" alt="DC Logo" />
             </div>
             <div className="bottom-nav h-100">
                 <ul className="nav-list ">
