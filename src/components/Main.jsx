@@ -1,5 +1,3 @@
-import './Main.css'
-
 const Main= () => {
     return (
         <>
@@ -18,6 +16,9 @@ const Main= () => {
             </div>
             <div className="icon-container">
               <img src="src/assets/img/buy-comics-shop-locator.png" alt="Shop Locator" />Shop Locator
+            </div>
+            <div className="icon-container">
+              <img src="src/assets/img/buy-dc-power-visa.svg" alt="DC Power Visa" /> DC Power Visa
             </div>
           </div>
         </>
