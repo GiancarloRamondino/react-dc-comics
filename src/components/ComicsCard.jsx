@@ -1,12 +1,11 @@
 import React from "react";
 
-const ComicsCard = ({ title, description, imageUrl }) => {
+const ComicsCard = (props) => {
   return (
-    <div className="comic-card">
-      <img src={imageUrl} alt={title} className="comic-image" />
-      <h2 className="comic-title">{title}</h2>
-      <p className="comic-description">{description}</p>
-    </div>
+   <div>Singolo Fumetto
+      <h4>{props.comics.title}</h4>
+      <img src={props.comic.thumb} alt={"DC Comics"} />
+   </div>
   );
 }
 
