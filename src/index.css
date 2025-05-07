@@ -129,7 +129,22 @@ img:hover {
     color: white;
     padding: 5px;
     margin-left: 10%;
-    border: 2px solid rgb(29, 6, 240);
+    border: 2px solid rgb(29, 6, 240);;
+}
 
+.comics-card {
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    margin: 25px;
+}
+.comics-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: medium;
+}
 
+h5{
+    display : inline-block;
 }
