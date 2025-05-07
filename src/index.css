@@ -5,6 +5,13 @@
     display: flex;
 }
 
+.jumbot{
+    background-image: url(src/assets/img/jumbotron.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+}
+
 .column {
     display: flex;
     direction: wrap;
@@ -53,12 +60,14 @@ li:hover {
 a {
     color: rgb(10, 1, 1);
     text-decoration: none;
+    flex-grow: 2;
 }
 
 a:hover {
     color: blue;
     border-bottom: 3px solid blue;
     padding-bottom: 20px;
+   
 }
 
 div.bottom-nav {

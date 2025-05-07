@@ -4,6 +4,7 @@ import ListComics from './ListComics.jsx';
 const Main= () => {
     return (
       <>
+        <div className="jumbot"></div>
         <main>
           <h1> <ListComics/> </h1> 
         </main>
