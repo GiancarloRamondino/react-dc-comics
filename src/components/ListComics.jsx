@@ -1,5 +1,5 @@
 import React from 'react';
-import ComicsCard from "./ComicsCard.jsx" 
+import ComicsCard from './ComicsCard.jsx';
 
 const ListComics = () => {
   const comics = [
@@ -175,6 +175,6 @@ const ListComics = () => {
   )
 }
 
-export default ListComics
+export default ListComics;
 
 
